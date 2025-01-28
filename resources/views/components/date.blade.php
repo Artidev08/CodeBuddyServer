@@ -1,1 +1,0 @@
-<input  class="form-control" pattern="{{ @$regex['pattern'] }}" title="{{ $regex['message']}}" {{ @$validation['pattern']['mandatory']}}  type="{{ $type }}" id="{{ $id }}" max="{{ $max }}" name="{{ $name }}" value="{{ $value }}" @isset($placeholder) placeholder="{{ $placeholder }}" @endisset @isset($readonly) readonly @endisset>
