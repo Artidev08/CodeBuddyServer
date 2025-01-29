@@ -1,4 +1,4 @@
-<form class="row ajaxForm" action="{{ route('panel.admin.code-register.update', $item->id) }}" method="post"
+<form class="row ajaxForm" action="{{ route('panel.admin.coderegister.update', $item->id) }}" method="post"
     enctype="multipart/form-data" id="ItemForm">
     @csrf
     <div class="col-md-12">

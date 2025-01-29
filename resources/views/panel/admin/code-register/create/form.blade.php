@@ -1,4 +1,4 @@
-<form class="row" action="{{ route('panel.admin.code-register.store') }}" method="post" enctype="multipart/form-data">
+<form class="row" action="{{ route('panel.admin.coderegister.store') }}" method="post" enctype="multipart/form-data">
     @csrf
     <input type="hidden" name="request_with" value="create">
     <div class="col-md-12">
